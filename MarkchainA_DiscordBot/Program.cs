@@ -72,7 +72,7 @@ namespace MarkchainA_DiscordBot
 
             client.Log += Log;
 
-            await client.LoginAsync(TokenType.Bot, "NjQ0MzE5MjE4NjQwMzU1MzMw.Xc10Rg.18UnUrCeUL296tFBtJwelVo5_c8");//change token
+            await client.LoginAsync(TokenType.Bot, "FAKE TOKEN LOL");//change token
             await client.StartAsync();
 
             client.MessageReceived += MessegeGet;
